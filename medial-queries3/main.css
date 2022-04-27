@@ -1,3 +1,42 @@
 body {
   background: peachpuff;
 }
+
+.container {
+  width: 600px;
+  height: 800px;
+  position: relative;
+  display: flex;
+  border: 1px solid;
+  margin: auto;
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.a {
+    width: 588px;
+    height: 150px;
+    border: 1px solid;
+    margin: 0 auto;
+    background-color: rosybrown;
+}
+
+.b ,.c ,.d ,.e ,.f ,.g {
+  width: 186px;
+  height: 150px;
+  border: 1px solid;
+  margin: 0 auto;
+  background-color: lightgoldenrodyellow;
+}
+
+.h {
+  width: 588px;
+  height: 300px;
+  border: 1px solid;
+  background-color: lightgray;
+}
+
+* {
+  text-align: center;
+}

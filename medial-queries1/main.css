@@ -1,3 +1,39 @@
 body {
   background: blanchedalmond;
 }
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  width: 1000px;
+  height:650px;
+  border: 1px solid;
+  flex-wrap: wrap;
+  margin: 10px auto; 
+}
+
+.a { 
+  border: 1px solid green;
+  background-color:aqua;
+  width:995px;
+  height:177px;
+}
+
+
+.b {
+  border: 1px solid;
+  width: 740px;
+  height: 450px;
+  background-color: lightgray;
+  
+}
+
+.c {
+  border: 1px solid;
+  margin-left: 10px;
+  width: 240px;
+  height: 450px;
+  background-color: lightcoral
+  
+}
